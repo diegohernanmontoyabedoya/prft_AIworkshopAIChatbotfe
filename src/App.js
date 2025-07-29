@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { TextField, Button, Paper, Typography, CircularProgress } from "@mui/material";
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
