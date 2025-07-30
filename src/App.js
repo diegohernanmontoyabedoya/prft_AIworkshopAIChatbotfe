@@ -13,7 +13,7 @@ function App() {
   const [loginError, setLoginError] = useState("");
   const [chatError, setChatError] = useState("");
 
-  const BASE_URL = process.env.BASE_URL || "http://localhost:3000";
+  const BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:3000";
 
   const handleLogin = async (e) => {
     e.preventDefault();
